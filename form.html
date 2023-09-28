@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="html.css">
+</head>
+<body>
+    <h1>the form </h1>
+    <form id="form">
+        <div class="from-control">
+            <label for="name"id="label-name">name</label>
+            <input type="text"id="name"placeholder="enter your name"/>
+        </div>
+        <div class="from-control">
+            <label for="email"id="label-email">email</label>
+            <input type="email"id="email"placeholder="enter your email"/>
+        </div>
+        <div class="from-control">
+            <label for="age"id="label-age">age</label>
+            <input type="text"id="age"placeholder="enter your age "/>
+
+        </div>
+        <div class="form-control">
+            <label for="role"id="label-role">
+                which  option best describes you ?
+            </label>
+            <select name="role"id="role">
+                <option value="student">student</option>
+                <option value="internship">internship</option>
+                <option value="job">job</option>
+                <option value="other">other</option>
+            </select>
+            <div class="form-control">
+                <label>
+                    would you recommend sex.com to a friend
+                </label>
+                <label for="recomend-1">
+                    <input type="radio"id="recomend-1"name="recomend">yes</input>
+
+                </label>
+                <label for="recommend-2">
+                    <input type="radio"id="recommend-2"name="recomend">no</input>
+
+                </label>
+                <label for="recomend-3">
+                    <input type="radio"id="recomend-3"name="recomend">maybe</input>
+                </label>
+            </div>
+            <div class="form-control">
+                <label>language and frameworks known
+                    <small> check all that apply</small>
+                </label>
+                <lable for="input-1">
+                    <input type="checkbox"name="input">c</input>
+
+                </lable>
+                <label for="input-2"> 
+         <input type="checkbox"name="input">c++</input>
+
+                </label>
+                <label for="input-3">
+          <input type="checkbox"name="input">css</input>
+                </label>
+                <lable for="input-4">
+            <input type="checkbox"name="input">html</input>
+
+                </lable>
+                <div class="form-control">
+                    <lable for="comment">
+                        any suggestion 
+                    </lable>
+                    <textarea name="comment"id="comment"placeholder="enter your comment here"></textarea>
+                </div>
+                <button type="submit"value="submit">submit</button>
+
+            </div>
+
+        </div>
+    </form>
+    
+</body>
+</html>
